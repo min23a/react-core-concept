@@ -25,9 +25,30 @@
   height: 50px;
   margin: auto 10px;
 }
-.slider_content{
+.banner_content {
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner_text{
+  width: 500px;
+  color: white;
+  font-weight: 600;
+}
+.banner_btn{
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background: linear-gradient(45deg,blue, purple);
+  font-weight: 900;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.banner_overlay{
+  margin: auto;
+  text-align: center;
 }
