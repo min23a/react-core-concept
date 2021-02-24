@@ -1,7 +1,7 @@
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: black;
+  background: linear-gradient(45deg,rgb(167, 167, 241), rgb(97, 0, 97));
   height: 60px;
 }
 .brand_link{
@@ -36,7 +36,7 @@
 }
 .banner_text{
   width: 500px;
-  color: white;
+  color: rgb(31, 161, 212);
   font-weight: 600;
 }
 .banner_btn{
@@ -51,4 +51,25 @@
 .banner_overlay{
   margin: auto;
   text-align: center;
+}
+.featured_product{
+  display: grid;
+  height: 1320px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  margin: 0px 20px;
+}
+.products{
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
 }
